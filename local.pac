@@ -1445,6 +1445,6 @@ function FindProxyForURL(url, host) {
       return direct;
     }
   }
-  // DEFAULT RULE: All other traffic sent to proxy.
-  return proxy;
+  // DEFAULT RULE: All other traffic sent to ~~proxy~~ DIRECT NOW HAHAHA :). 
+  return direct;
 }
